@@ -1,8 +1,6 @@
 #include "FEED_FORWARD_PUMP_CONTROL.h"
 #include <chrono>
 
-
-
 /*
 Things for testing:
 Test wether the PWM will still output if the Output is not inside a loop

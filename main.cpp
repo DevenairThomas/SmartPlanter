@@ -4,6 +4,7 @@
  */
 
 #include "mbed.h"
+#include "FeedForwardController.h"
 
 
 // Blinking rate in milliseconds

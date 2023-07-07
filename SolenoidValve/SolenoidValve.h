@@ -4,7 +4,7 @@
 
 class SOLENOID_VALVE{
     private:
-    DigitalOut VALVE_PIN;
+    PwmOut VALVE_PIN;
     bool VALVE_OPEN = true;     //boolean starts as true to make sure when the valve is initialized the valve is then closed
     Mutex MUTEX_VALVE_STATE;
     protected:
